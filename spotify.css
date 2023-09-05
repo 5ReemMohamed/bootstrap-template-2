@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+#perimum{
+  background-color: #b7b7b7;
+}
+#perimum h2{
+  font-size: 40px;
+    letter-spacing: -1.6px;
+    font-size: 32px; 
+    font-weight: bold;
+}
+#perimum h3{
+  font-size: 16px;
+    font-weight: 55px;
+    margin: 10px 0px;
+    
+}
+#visa{
+  width: 40px;
+  padding: 5px;
+}
+#card{
+  width: 30px;
+  background-color: white;
+  padding: 5px;
+}
+#vodafone{
+  width: 30px;
+  padding: 5px;
+
+}
+#c1{
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+}
+
+#c2{
+  border-radius: 4px;
+    font-size: 14px;
+    
+    display: inline-block;
+    font-weight: 700;
+  
+    color: rgb(13, 114, 234);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 114, 234);
+    box-sizing: border-box;
+    
+
+}
+#c1 #p1{
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 0px;
+}
+#c1 #P2{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+#c1 #p3{
+  color: rgb(0, 0, 0);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+hr{
+  font-weight: bolder;
+width: 270px;
+  border: 1px solid black;
+}
+button{
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 400px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.fa-solid fa-check{
+  color: black;
+}
+#terms{
+  color: black;
+  font-size: 11px;
+  cursor: pointer;
+}
+#c4{
+  border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 114, 234);
+
+}
+#terms2{
+  text-align: justify;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+#terms2 span{
+  text-decoration: underline;
+}
