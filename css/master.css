@@ -207,3 +207,15 @@ footer a{
         top: 88px;
     }
 }
+/* start features */
+.features .main-title h2{ 
+    font-size: 35px !important;
+    font-weight: 900 !important;
+    color: black;
+}
+.features .main-title .row .feat h4{
+    color: black;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+/* end features */
