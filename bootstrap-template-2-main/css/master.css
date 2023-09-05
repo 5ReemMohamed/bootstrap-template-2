@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:black;
+    --secondcolor:white;
+    --thirdcolor: #91eedb;
+    --fourthcolor:#1ed760;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.bg{
+    background-color: var(--maincolor)!important;
+}
+.navbar{
+    z-index: 99999999999;
+}
+.navbar-brand img{
+    width: 20%;
+    margin-left: 30px!important;
+}
+.navbar-toggler{
+    border: none;
+}
+ .fa-solid{
+    opacity: 1!important;
+    color: var(--secondcolor)!important;
+} 
+.nav-link{
+    color: var(--secondcolor)!important;
+    opacity: 1!important;
+}
+.nav-link:hover{
+    color: var(--fourthcolor)!important;
+    opacity: 1!important;
+}
+.sign{
+    opacity: .6!important;
+}
+.span{
+    opacity: 1!important;
+    color: var(--secondcolor)!important;
+    transform: translateY(8px);
+}
+.offcanvasbg{
+
+    background-color: var(--maincolor)!important;
+}
+.div1{
+    padding-top: 150px;
+    padding-left: 120px;
+}
+.triangle1::before{
+    border-bottom: 10em solid #bc8cba;
+    border-left: 2em solid transparent;
+    border-right:6em solid transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    top:  2.7em;
+    left:-6.3em;
+    height: 0;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-60deg);
+    width: 0;
+}
+.triangle1::after{
+    border-bottom: 10em solid #bc8cba;
+    border-left: 1em solid transparent;
+    border-right: 8em solid transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 6.8em;
+    left:2.6em;
+    height: 0;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(181deg);
+    width: 0;
+}
+
+.triangle2{
+    border-bottom: 10em solid #bc8cba;
+    border-left: 0em solid transparent;
+    border-right: 23em solid transparent;
+    -webkit-transform: rotate(23deg) scale(1.5);
+    transform: rotate(180deg) scale(1.5);
+    position: absolute;
+    right: 93px;
+    top: 100px;
+}
+.h1font{
+    padding-top: 50px;
+    font-size: 40px;
+    color: var(--secondcolor)!important;
+    line-height: 48px;
+    font-weight:900;
+}
+.pfont{
+    line-height:36px;
+    font-size:24px;
+    color: var(--secondcolor)!important;
+    padding-top: 15px;
+    font-weight:400 ;
+}
+.button{
+    padding: 12px 50px;
+    background-color: var(--thirdcolor)!important;
+    color: var(--maincolor);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+.button:hover{
+    font-weight: 900;
+    transform: scale(1.02,1.02);
+    color: var(--maincolor);
+}
+.button2{
+    padding: 10px 35px;
+    background-color: var(--maincolor)!important;
+    color: var(--secondcolor);
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid var(--secondcolor);
+}
+.button2:hover{
+    font-weight: 700;
+    transform: scale(1.04,1.04);
+    border: 2px solid var(--secondcolor);
+}
+.pfooterfont{
+    padding-bottom: 75px;
+    font-size:11px;
+  
+    color: var(--secondcolor)!important;
+    padding-top: 15px;
+    font-weight:400 ;
+}
+footer a{
+    color: var(--secondcolor);
+}
+@media screen and (max-width:767px){
+     .navbar-brand img{
+        width: 130px;
+        height:40px;
+        margin-left: 5px!important;
+    }  
+    .div1{
+        padding-left: 5px;
+    }
+    .h1font{
+        font-size: 27px;
+        line-height: 33.6px;
+    }
+    .pfont{
+        line-height:27px;
+        font-size:18px;
+    }
+    .pfooterfont{
+     
+        padding-right: 0!important;
+    }
+    .button{
+        width: 100%;
+    }
+    .button2{
+      width: 100%;
+    }
+    .triangle1::before{
+        border-bottom: 8em solid #bc8cba;
+        border-left: 2em solid transparent;
+        border-right: 4em solid transparent;
+        content: "";
+        display: block;
+        position: absolute;
+        top:  1.3em;
+        left:-5.5em;
+        height: 0;
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-62.4deg);
+        width: 0;
+    }
+    .triangle1::after{
+        border-bottom: 8em solid #bc8cba;
+        border-left: 2em solid transparent;
+        border-right: 4em solid transparent;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 4.5em;
+        left:5em;
+        height: 0;
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(180deg);
+        width: 0;
+    }
+    .triangle2{
+        border-bottom: 4em solid #bc8cba;
+        border-left: 0em solid transparent;
+        border-right: 5em solid transparent;
+        -webkit-transform: rotate(23deg) scale(1.5);
+        transform: rotate(180deg) scale(1.5);
+        position: absolute;
+        right: 21px;
+        top: 88px;
+    }
+}
