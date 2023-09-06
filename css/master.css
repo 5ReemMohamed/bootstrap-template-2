@@ -107,7 +107,7 @@ body{
 .button{
     padding: 12px 50px;
     background-color: var(--thirdcolor)!important;
-    color: var(--maincolor);
+    color: var(--maincolor)!important;
     font-size: 16px;
     font-weight: 500;
     margin-right: 4px;
@@ -115,7 +115,7 @@ body{
 .button:hover{
     font-weight: 900;
     transform: scale(1.02,1.02);
-    color: var(--maincolor);
+    color: var(--maincolor)!important;
 }
 .button2{
     padding: 10px 35px;
