@@ -83,8 +83,8 @@ p{
 }
 hr{
   font-weight: bolder;
-width: 270px;
   border: 1px solid black;
+  width:100%;
 }
 button{
     box-sizing: border-box;
